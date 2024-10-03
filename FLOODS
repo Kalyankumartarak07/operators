@@ -13,3 +13,14 @@ Sample input and output 2:
 78000
 60000
 354000.00
+
+
+ANS:
+X = int(input())
+Y = int(input())
+
+senior_contribution = 6 * (X * 0.5)
+junior_contribution = 5 * (Y * 0.4)
+total_contribution = senior_contribution + junior_contribution
+
+print(f"{total_contribution:.2f}")
