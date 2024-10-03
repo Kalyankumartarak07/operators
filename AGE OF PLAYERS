@@ -14,3 +14,25 @@ Sample input and output 2:
 30
 30
 40
+
+
+
+ANS:
+
+
+def calculate_ages(total_age):
+    a = (total_age - 10) // 3
+    z = a + 10
+
+    return a, a, z
+
+total_age = int(input("Enter the total age of the 3 players: "))
+
+
+x_age, y_age, z_age = calculate_ages(total_age)
+
+
+print(x_age)
+print(y_age)
+print(z_age)
+
