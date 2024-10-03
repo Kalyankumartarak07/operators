@@ -11,6 +11,9 @@ Sample Input and Output2:
 21
 Note: Bold highlighted is the output value.
  
+ANS:
+
+
 
 cAge=int(input())
 deviAge =((cAge+3)*4)-3
