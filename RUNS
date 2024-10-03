@@ -22,3 +22,17 @@ Sample input and output 2:
 7
 1
 17
+
+
+ANS:
+
+
+no_balls = int(input())
+wides = int(input())
+byes = int(input())
+leg_byes = int(input())
+penalty = int(input())
+
+total_extras = no_balls + wides + byes + leg_byes + (penalty * 5)
+print(total_extras)
+
